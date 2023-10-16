@@ -12,6 +12,7 @@ datasources:
     dialect: POSTGRES
     schema-generate:  NONE # [ NONE | CREATE | CREATE_DROP]
 
+# https://micronaut-projects.github.io/micronaut-flyway/latest/guide/#additionalConfig
 flyway:
   datasources:
     default:
