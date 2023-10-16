@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: flywayDemo
+
+datasources:
+  default:
+    url: "jdbc:postgresql://localhost:5432/demo"
+    username: "demo"
+    password: "***"
+    driver-class-name: org.postgresql.Driver
+    db-type: postgres
+    dialect: POSTGRES
+    schema-generate:  NONE # [ NONE | CREATE | CREATE_DROP]
+
+flyway:
+  datasources:
+    default:
+      enabled: true # true | false
+      baseline-on-migrate: true
