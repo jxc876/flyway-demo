@@ -12,6 +12,7 @@ datasources:
     dialect: POSTGRES
     schema-generate:  NONE # [ NONE | CREATE | CREATE_DROP]
 
+# "Invalid SQL filenames" => https://github.com/flyway/flyway/issues/3430
 # https://micronaut-projects.github.io/micronaut-flyway/latest/guide/#additionalConfig
 flyway:
   datasources:
