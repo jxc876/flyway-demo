@@ -4,7 +4,7 @@ micronaut:
 
 datasources:
   default:
-    url: "jdbc:postgresql://localhost:5432/demo"
+    url: "jdbc:postgresql://localhost:5432/demo?currentSchema=public"
     username: "demo"
     password: "***"
     driver-class-name: org.postgresql.Driver
@@ -18,3 +18,4 @@ flyway:
     default:
       enabled: true # true | false
       baseline-on-migrate: true
+      validate-migration-naming: true
