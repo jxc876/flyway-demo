@@ -1,6 +1,6 @@
-## Flyaway demo
+## Flyway demo
 
-Simple App to showcase Flyaway migrations:
+Simple App to showcase Flyway migrations:
 
 ```kt
 @MappedEntity("person")
